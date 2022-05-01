@@ -1,0 +1,32 @@
+
+body {
+  background-color: #E8ECEF;
+  
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.not-secret-text{
+  text-align: center;
+  font-size: 2rem;
+  background-color: silver;
+  padding-bottom: 5%;
+}
+.inbox{
+  margin-top: 5%;
+  color: white;
+  background-color: gray;
+  margin-bottom: 1%;
+  border-radius: 40%;
+  justify-content: center;
+ 
+}

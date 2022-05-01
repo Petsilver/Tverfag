@@ -1,0 +1,28 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-5">API</h1>
+    <p>how it works</p>
+    <div class="inbox">
+    <p>app.get("/", function(req, res){ </p>
+      <P>res.render("") </P>
+      <p>}); 
+      </p>
+    </div>
+    <p>Is used to redirect the user to other pages.</p>
+    <div class="inbox">
+      <p>if(req.isAuthenticated()){ </p>
+        <p> res.render("");</p>
+        <p>} else{ </p>
+          <p>res.redirect("/");</p>
+    </div>
+    <p>This shows if the user is authenticated and if not will redirect them to the login </p>
+    <a class="btn btn-dark btn-lg" href="/secrets" role="button">back</a>
+    
+    
+  </div>
+</div>
+
+<%- include('partials/footer') %>
